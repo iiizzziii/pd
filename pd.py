@@ -1,5 +1,4 @@
-
-# display df(all rows) with empty values
+# display df rows with empty values
 df[df.isna().any(axis=1)]
 
 # merge columns with some aggregator (---char---)
